@@ -1,0 +1,14 @@
+.header {
+  background: #222831;
+  height: 70px;
+}
+
+.navButton {
+  background: #eeeeee;
+  color: #222831;
+}
+
+.logoutButton {
+  background: #00adb5;
+  color: #eeeeee;
+}

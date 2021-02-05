@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+/* DESKTOP */
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+@media(min-width: 60rem) {
+  .homeHero {
+    height: 100vh;
+    background: #1C1B21;
+  }
+  
+  .headerTitle {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 60%;
+  }
+  
+  .headerTitle span {
+    color: #7448FF;
+  }
+
+  .subTitle {
+    font-weight: 700;
+    line-height: 150px;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 60%;
+
+    font-size: 200px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .subTitle span {
+    color: #7448FF;
+  }
+}
